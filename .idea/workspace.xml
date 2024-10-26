@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53540b7-151e-4567-9834-058735ac0718" name="Changes" comment="Обновил до 3.12">
-      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/questions.py" afterDir="false" />
+    <list default="true" id="e53540b7-151e-4567-9834-058735ac0718" name="Changes" comment="Не работает(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/database_adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/database_adapter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +152,10 @@
       <workItem from="1729953736952" duration="22000" />
       <workItem from="1729954788536" duration="857000" />
       <workItem from="1729955667118" duration="1521000" />
-      <workItem from="1729957230306" duration="1711000" />
+      <workItem from="1729957230306" duration="3940000" />
+      <workItem from="1729961954750" duration="11000" />
+      <workItem from="1729962702215" duration="22000" />
+      <workItem from="1729976298360" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="Мелкие изменения">
       <option name="closed" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729951326740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Не работает(">
+      <option name="closed" value="true" />
+      <created>1729959454358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729959454358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Мелкие изменения" />
     <MESSAGE value="Обновил до 3.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновил до 3.12" />
+    <MESSAGE value="Не работает(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не работает(" />
   </component>
 </project>
