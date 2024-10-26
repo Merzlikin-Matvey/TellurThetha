@@ -1,11 +1,25 @@
-from flask import Flask
+import os
+import psycopg2
+from psycopg2 import OperationalError
 
+def check_postgres_connection():
+    try:
+        connection = psycopg2.connect(
+            host=os.getenv('DB_HOST', 'localhost'),
+            port=os.getenv('DB_PORT', '5432'),
+            database=os.getenv('DB_NAME', 'mydatabase'),
+            user=os.getenv('DB_USER', 'user'),
+            password=os.getenv('DB_PASSWORD', 'password')
+        )
+        cursor = connection.cursor()
+        cursor.execute("SELECT 1;")
+        result = cursor.fetchone()
+        if result:
+            print("PostgreSQL работает корректно.")
+        cursor.close()
+        connection.close()
+    except OperationalError as e:
+        print(f"Ошибка подключения к PostgreSQL: {e}")
 
-app = Flask(__name__)
-
-@app.route('/')
-def hello():
-    return "Hello, World!"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    check_postgres_connection()

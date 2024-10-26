@@ -12,22 +12,22 @@ class Adapter():
         self.conn = None
         self.cursor = None
         self.schema_name = schema_name
-        
+
     def connect(self):
         try:
             self.conn = psycopg2.connect(
                 host=self.host,
                 port=self.port,
-                #sslmode=self.sslmode,
                 dbname=self.dbname,
                 user=self.user,
                 password=self.password,
                 target_session_attrs=self.target_session_attrs,
-                #sslcert = open("cert.crt")
             )
             self.cursor = self.conn.cursor()
         except Exception as error:
-            print(f'connection error:{error}')
+            print(f'connection error: {error}')
+            self.conn = None
+            self.cursor = None
 
     def select(self, table):
         request = f"""SELECT * FROM "{self.schema_name}"."{table}" """
@@ -44,7 +44,9 @@ class Adapter():
         self.conn.commit()
 
     def insert(self, table, data):
-        request_insert = f"""INSERT INTO "{self.schema_name}"."{table}" ({",".join(list(data.keys()))}) VALUES ({",".join(list(data.items()))})"""
+        columns = ",".join(list(data.keys()))
+        values = ",".join([f"'{v}'" if isinstance(v, str) else str(v) for v in data.values()])
+        request_insert = f"""INSERT INTO "{self.schema_name}"."{table}" ({columns}) VALUES ({values})"""
         self.cursor.execute(request_insert)
         self.conn.commit()
 

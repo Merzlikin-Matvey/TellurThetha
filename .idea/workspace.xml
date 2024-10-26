@@ -1,11 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e53540b7-151e-4567-9834-058735ac0718" name="Changes" comment="Обновил до 3.12">
+      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/database_adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/database_adapter.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Merzlikin-Matvey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Merzlikin-Matvey/TellurThetha.git&quot;,
+    &quot;accountId&quot;: &quot;ee4dd6b5-dcc7-4d1d-9577-9392e1e7a98c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nyfq9a6KQXGRgZHfmC249UST7t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{}</component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Docker.Unnamed">
     <configuration name="TellurThetha1" type="PythonConfigurationType" factoryName="Python">
       <module name="TellurThetha1" />
       <option name="ENV_FILES" value="" />
@@ -16,7 +96,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -29,5 +109,99 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5000" />
+                <option name="hostPort" value="5000" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="6432" />
+                <option name="hostPort" value="6432" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="Python.TellurThetha1" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e53540b7-151e-4567-9834-058735ac0718" name="Changes" comment="" />
+      <created>1729950424346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729950424346</updated>
+      <workItem from="1729950425589" duration="1966000" />
+      <workItem from="1729953574502" duration="10000" />
+      <workItem from="1729953736952" duration="22000" />
+      <workItem from="1729954788536" duration="857000" />
+      <workItem from="1729955667118" duration="1521000" />
+      <workItem from="1729957230306" duration="1711000" />
+    </task>
+    <task id="LOCAL-00001" summary="Мелкие изменения">
+      <option name="closed" value="true" />
+      <created>1729951126297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729951126297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Мелкие изменения">
+      <option name="closed" value="true" />
+      <created>1729951130070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729951130070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Обновил до 3.12">
+      <option name="closed" value="true" />
+      <created>1729951326740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729951326740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Мелкие изменения" />
+    <MESSAGE value="Обновил до 3.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновил до 3.12" />
   </component>
 </project>
